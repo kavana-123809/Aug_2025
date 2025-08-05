@@ -45,4 +45,4 @@ public class Lab6 {
     }
 }
 
-}
+

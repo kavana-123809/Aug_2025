@@ -2,7 +2,7 @@ package javaselenium;
 
 import java.util.Scanner;
 
-public class pgm2 {
+public class Lab5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

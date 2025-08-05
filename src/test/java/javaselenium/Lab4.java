@@ -1,6 +1,6 @@
 package javaselenium;
 
-public class pgm1 {
+public class Lab4 {
 
 	public static void main(String[] args) {
 		String firstName= "Divya";
