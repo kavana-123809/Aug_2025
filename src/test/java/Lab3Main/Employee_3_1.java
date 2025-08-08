@@ -1,8 +1,6 @@
 
 package Lab3Main;
 
-import java.util.Scanner;
-
 class CustomNameException extends Exception {
 	public CustomNameException(String msg) {
 		super(msg);
