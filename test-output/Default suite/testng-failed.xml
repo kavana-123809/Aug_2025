@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pac1.TC0014">
+      <class name="pac1.TC0012_TestNG2_pagefactory">
         <methods>
-          <include name="test2"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- pac1.TC0014 -->
+      </class> <!-- pac1.TC0012_TestNG2_pagefactory -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
