@@ -1,6 +1,7 @@
 package pac1;
 
 import org.testng.annotations.Test;
+import org.xml.sax.SAXException;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -16,6 +17,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
+import javax.xml.parsers.ParserConfigurationException;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -29,7 +32,7 @@ public class TC0012_TestNG2_pagefactory {
 	WebDriver driver;
 	 String projectpath=System.getProperty("user.dir")  ;
   @Test(dataProvider = "dp")
-  public void f(String username, String password) throws InterruptedException, IOException {
+  public void f(String username, String password) throws InterruptedException, IOException, ParserConfigurationException, SAXException {
 	  Thread.sleep(5000);	
 	  String title=driver.getTitle();
 		System.out.println("The Title is:"+title);

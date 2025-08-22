@@ -1,0 +1,20 @@
+
+<users>
+<user>
+<firstname>Kavana</firstname>
+<lastname>S P</lastname>
+<email>kav@gmail.com</email>
+<telephone>9998887776</telephone>
+<password>kav@123</password>
+<confirmpassword>kav@123</confirmpassword>
+</user>
+<user>
+<firstname>abc</firstname>
+<lastname>de</lastname>
+<email>abc@gmail.com</email>
+<telephone>7778889991</telephone>
+<password>abc@123</password>
+<confirmpassword>abc@123</confirmpassword>
+</user>
+</users>
+

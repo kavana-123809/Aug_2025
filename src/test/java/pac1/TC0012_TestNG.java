@@ -1,6 +1,7 @@
 package pac1;
 
 import org.testng.annotations.Test;
+import org.xml.sax.SAXException;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -8,7 +9,11 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.BeforeClass;
-import org.openqa.selenium.By;
+
+import java.io.IOException;
+
+import javax.xml.parsers.ParserConfigurationException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -20,7 +25,7 @@ import org.testng.annotations.AfterSuite;
 public class TC0012_TestNG {
 	WebDriver driver;
   @Test(dataProvider = "dp")
-  public void f(String username, String password) throws InterruptedException {
+  public void f(String username, String password) throws InterruptedException, ParserConfigurationException, SAXException, IOException {
 	  
 		String title=driver.getTitle();
 		System.out.println("The Title is:"+title);
