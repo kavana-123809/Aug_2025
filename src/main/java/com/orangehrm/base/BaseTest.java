@@ -25,7 +25,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 		}
 	
 	
-	@BeforeMethod
+	 @BeforeMethod
 	  public void setup() {
 		  System.out.println("Before method");
 		  WebDriverManager.chromedriver().setup();

@@ -1,0 +1,88 @@
+Started by user Kavana S P
+Running as SYSTEM
+Building in workspace C:\Users\KAVANA\.jenkins\workspace\Questions.1-9
+[Questions.1-9] $ cmd /c call C:\Users\KAVANA\AppData\Local\Temp\jenkins14949866361242968442.bat
+
+C:\Users\KAVANA\.jenkins\workspace\Questions.1-9>cd C:\Users\KAVANA\eclipse-workspace\Wipro__javaselenium 
+
+C:\Users\KAVANA\eclipse-workspace\Wipro__javaselenium>mvn clean test 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< Wipro25:Wipro__javaselenium >---------------------
+[INFO] Building Wipro__javaselenium 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ Wipro__javaselenium ---
+[INFO] Deleting C:\Users\KAVANA\eclipse-workspace\Wipro__javaselenium\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Wipro__javaselenium ---
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ Wipro__javaselenium ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 7 source files with javac [debug target 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Wipro__javaselenium ---
+[INFO] Copying 4 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ Wipro__javaselenium ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 88 source files with javac [debug target 17] to target\test-classes
+[INFO] /C:/Users/KAVANA/eclipse-workspace/Wipro__javaselenium/src/test/java/com/orangehrm/stepdefinitions/TestRunner.java: C:\Users\KAVANA\eclipse-workspace\Wipro__javaselenium\src\test\java\com\orangehrm\stepdefinitions\TestRunner.java uses or overrides a deprecated API.
+[INFO] /C:/Users/KAVANA/eclipse-workspace/Wipro__javaselenium/src/test/java/com/orangehrm/stepdefinitions/TestRunner.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ Wipro__javaselenium ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+Aug 29, 2025 2:41:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+Aug 29, 2025 2:41:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+First 5 products name
+1: HP 15, 13th Gen Intel Core i5-1335U Laptop (16GB DDR4,512GB SSD) Anti-Glare, Micro-edge,15.6''/39.6cm, FHD, Win11,M365,Office24, Silver,1.59kg, Iris Xe Graphics, FHD Camera w/privacy shutter, fd0577TU
+2: HP OmniBook 5 OLED (Previously Pavilion), Snapdragon X Processor (16GB LPDDR5x, 512GB SSD) 2K, 14''/35.6cm, Win11, M365 Basic(1yr)* Office24, Silver, 1.35kg, he0014QU, Light-Weight, Next-Gen AI Laptop
+3: HP 15, AMD Ryzen 3 7320U (8GB LPDDR5, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6"/39.6cm, Win 11, Office 21, Silver, 1.59kg, fc0154AU, AMD Radeon Graphics, 1080p FHD Camera Laptop
+4: HP 15s, 12th Gen Intel Core i3-1215U (8GB DDR4, 512GB SSD) Anti-Glare, 15.6"/39.6cm,FHD, Win 11, MS Office 21, Silver, 1.69kg, fy5006tu/fd0751tu/fd0752tu, UHD Graphics, HD Camera, Dual Speakers Laptop
+5: ASUS TUF F16,13th Gen,Intel Core i5-13450HX,Gaming Laptop(RTX 5050-8GB/115W TGP/16GB RAM/1TB SSD/FHD+/16"/165Hz/90Whr/Windows 11/M365 Basic (1Year)*/Office Home 2024/Jaeger Gray/2.5 Kg)FX608JH-RV057WS
+Aug 29, 2025 2:41:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+Aug 29, 2025 2:41:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+Aug 29, 2025 2:41:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+Page Title: Google
+Aug 29, 2025 2:41:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+Aug 29, 2025 2:42:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+Names from first table:
+John
+Frank
+Jason
+Tim
+Email of Jason: jdoe@hotmail.com
+Aug 29, 2025 2:42:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+Child Window Title: 
+Parent Window Title: The Internet
+Aug 29, 2025 2:42:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+Screenshot saved at: C:\Users\KAVANA\eclipse-workspace\Wipro__javaselenium\homepage.png
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 59.40 s -- in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:14 min
+[INFO] Finished at: 2025-08-29T14:42:17+05:30
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

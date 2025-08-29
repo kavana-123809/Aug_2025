@@ -61,7 +61,7 @@ package pac1;
 		 driver.findElement(By.name("confirm")).sendKeys(confirmpassword);
 		// Click on checkbox of newsLetter
 		 driver.findElement(By.name("newsletter")).click();
-		 //Select “I have read and agree to the Privacy Policy” check box
+		 //Select "I have read and agree to the Privacy Policy" check box
 		 driver.findElement(By.name("agree")).click();
 		 //click on continue
 		 driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/div/input[2]")).click();

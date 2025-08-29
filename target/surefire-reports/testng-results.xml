@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-29T14:41:18 IST" name="Suite" finished-at="2025-08-29T14:42:16 IST" duration-ms="57554">
+    <groups>
+    </groups>
+    <test started-at="2025-08-29T14:41:18 IST" name="Test" finished-at="2025-08-29T14:42:16 IST" duration-ms="57554">
+      <class name="Questions.Q6">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Questions.Q6@623e088f]" started-at="2025-08-29T14:41:56 IST" name="setup" finished-at="2025-08-29T14:41:57 IST" duration-ms="949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="selectCheckboxes()[pri:0, instance:Questions.Q6@623e088f]" started-at="2025-08-29T14:41:57 IST" name="selectCheckboxes" finished-at="2025-08-29T14:42:01 IST" duration-ms="4288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCheckboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Questions.Q6@623e088f]" started-at="2025-08-29T14:42:01 IST" name="tearDown" finished-at="2025-08-29T14:42:01 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Questions.Q6 -->
+      <class name="Questions.Q7">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Questions.Q7@39fcbef6]" started-at="2025-08-29T14:42:01 IST" name="setup" finished-at="2025-08-29T14:42:02 IST" duration-ms="957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="extractTableData()[pri:0, instance:Questions.Q7@39fcbef6]" started-at="2025-08-29T14:42:02 IST" name="extractTableData" finished-at="2025-08-29T14:42:07 IST" duration-ms="4893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractTableData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Questions.Q7@39fcbef6]" started-at="2025-08-29T14:42:07 IST" name="tearDown" finished-at="2025-08-29T14:42:07 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Questions.Q7 -->
+      <class name="Questions.Q4">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Questions.Q4@71454b9d]" started-at="2025-08-29T14:41:46 IST" name="setUp" finished-at="2025-08-29T14:41:47 IST" duration-ms="1594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectOption()[pri:0, instance:Questions.Q4@71454b9d]" started-at="2025-08-29T14:41:47 IST" name="selectOption" finished-at="2025-08-29T14:41:47 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectOption -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Questions.Q4@71454b9d]" started-at="2025-08-29T14:41:47 IST" name="tearDown" finished-at="2025-08-29T14:41:48 IST" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Questions.Q4 -->
+      <class name="Questions.Q5">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Questions.Q5@eda25e5]" started-at="2025-08-29T14:41:48 IST" name="setup" finished-at="2025-08-29T14:41:49 IST" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="handleAlert()[pri:0, instance:Questions.Q5@eda25e5]" started-at="2025-08-29T14:41:49 IST" name="handleAlert" finished-at="2025-08-29T14:41:53 IST" duration-ms="4233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Questions.Q5@eda25e5]" started-at="2025-08-29T14:41:53 IST" name="tearDown" finished-at="2025-08-29T14:41:53 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Questions.Q5 -->
+      <class name="Questions.Q2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Questions.Q2@25bfcafd]" started-at="2025-08-29T14:41:18 IST" name="setup" finished-at="2025-08-29T14:41:21 IST" duration-ms="2690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:Questions.Q2@25bfcafd]" started-at="2025-08-29T14:41:21 IST" name="loginTest" finished-at="2025-08-29T14:41:29 IST" duration-ms="8518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Questions.Q2@25bfcafd]" started-at="2025-08-29T14:41:29 IST" name="tearDown" finished-at="2025-08-29T14:41:30 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Questions.Q2 -->
+      <class name="Questions.Q3">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Questions.Q3@2a76840c]" started-at="2025-08-29T14:41:30 IST" name="setup" finished-at="2025-08-29T14:41:31 IST" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="f()[pri:0, instance:Questions.Q3@2a76840c]" started-at="2025-08-29T14:41:31 IST" name="f" finished-at="2025-08-29T14:41:43 IST" duration-ms="12592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Questions.Q3@2a76840c]" started-at="2025-08-29T14:41:43 IST" name="close" finished-at="2025-08-29T14:41:45 IST" duration-ms="2100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Questions.Q3 -->
+      <class name="Questions.Q1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Questions.Q1@7cf6a5f9]" started-at="2025-08-29T14:41:53 IST" name="setup" finished-at="2025-08-29T14:41:54 IST" duration-ms="1004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="openGoogle()[pri:0, instance:Questions.Q1@7cf6a5f9]" started-at="2025-08-29T14:41:54 IST" name="openGoogle" finished-at="2025-08-29T14:41:55 IST" duration-ms="1071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGoogle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Questions.Q1@7cf6a5f9]" started-at="2025-08-29T14:41:55 IST" name="tearDown" finished-at="2025-08-29T14:41:56 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Questions.Q1 -->
+      <class name="Questions.Q8">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Questions.Q8@66565121]" started-at="2025-08-29T14:42:07 IST" name="setup" finished-at="2025-08-29T14:42:08 IST" duration-ms="958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="handleWindows()[pri:0, instance:Questions.Q8@66565121]" started-at="2025-08-29T14:42:08 IST" name="handleWindows" finished-at="2025-08-29T14:42:12 IST" duration-ms="3896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleWindows -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Questions.Q8@66565121]" started-at="2025-08-29T14:42:12 IST" name="tearDown" finished-at="2025-08-29T14:42:13 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Questions.Q8 -->
+      <class name="Questions.Q9">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Questions.Q9@2fc6f97f]" started-at="2025-08-29T14:42:13 IST" name="setup" finished-at="2025-08-29T14:42:14 IST" duration-ms="948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="takeScreenshot()[pri:0, instance:Questions.Q9@2fc6f97f]" started-at="2025-08-29T14:42:14 IST" name="takeScreenshot" finished-at="2025-08-29T14:42:15 IST" duration-ms="1746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Questions.Q9@2fc6f97f]" started-at="2025-08-29T14:42:15 IST" name="tearDown" finished-at="2025-08-29T14:42:16 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Questions.Q9 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

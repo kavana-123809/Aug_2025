@@ -5,9 +5,9 @@
     <classes>
       <class name="Questions.Q3">
         <methods>
-          <include name="tearDown"/>
-          <include name="searchLaptop"/>
-          <include name="setup"/>
+          <include name="f" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
         </methods>
       </class> <!-- Questions.Q3 -->
     </classes>
